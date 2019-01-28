@@ -1,0 +1,14 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: account-server
+apollo:
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
+  meta: http://10.29.23.83:8090
+
+
+
